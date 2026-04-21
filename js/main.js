@@ -99,7 +99,6 @@
 
 
     // Portfolio isotope and filter
-    // Categories: * = All, .first = Graphic Design, .second = Company Profiles, .third = Meta Ads
     var portfolioIsotope = $('.portfolio-container').isotope({
         itemSelector: '.portfolio-item',
         layoutMode: 'fitRows'
@@ -107,7 +106,6 @@
     $('#portfolio-flters li').on('click', function () {
         $("#portfolio-flters li").removeClass('active');
         $(this).addClass('active');
-
         portfolioIsotope.isotope({filter: $(this).data('filter')});
     });
 
@@ -119,6 +117,41 @@
         items: 1,
         dots: true,
         loop: true,
+    });
+
+
+    // Contact form — mailto fallback with user feedback
+    $('#contactForm').on('submit', function (e) {
+        e.preventDefault();
+
+        var name    = $.trim($('#name').val());
+        var email   = $.trim($('#email').val());
+        var subject = $.trim($('#subject').val());
+        var message = $.trim($('#message').val());
+        var feedback = $('#formFeedback');
+
+        // Basic validation
+        if (!name || !email || !subject || !message) {
+            feedback.removeClass('success').addClass('error')
+                .text('Please fill in all fields before sending.')
+                .show();
+            return;
+        }
+
+        // Build mailto link and open it
+        var mailtoLink = 'mailto:Paulwkay@gmail.com'
+            + '?subject=' + encodeURIComponent(subject)
+            + '&body=' + encodeURIComponent('Name: ' + name + '\nEmail: ' + email + '\n\n' + message);
+
+        window.location.href = mailtoLink;
+
+        // Show success message
+        feedback.removeClass('error').addClass('success')
+            .text('Your email client has opened. Send the message from there and I will get back to you within 24 hours.')
+            .show();
+
+        // Reset the form
+        $('#contactForm')[0].reset();
     });
 
     

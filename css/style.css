@@ -76,6 +76,18 @@
     font-weight: normal;
 }
 
+/* WhatsApp social button */
+.btn-square.btn-whatsapp {
+    background-color: #25D366;
+    border-color: #25D366;
+    color: #FFFFFF;
+}
+
+.btn-square.btn-whatsapp:hover {
+    background-color: #1ebe57;
+    border-color: #1ebe57;
+}
+
 
 /*** Navbar ***/
 .navbar.fixed-top {
@@ -430,8 +442,19 @@
 }
 
 
-/*** Contact — clickable links inherit dark colour cleanly ***/
+/*** Contact ***/
 #contact a.text-dark:hover {
     color: var(--primary) !important;
     text-decoration: underline !important;
+}
+
+/* Contact form feedback */
+#formFeedback.success {
+    color: #198754;
+    font-weight: 600;
+}
+
+#formFeedback.error {
+    color: #dc3545;
+    font-weight: 600;
 }
