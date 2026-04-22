@@ -1,11 +1,11 @@
 /********** Template CSS **********/
 :root {
-    --primary: #C5A059;
-    --secondary: #F3F3F3;
-    --light: #FFFFFF;
-    --dark: #1A1A1A;
-    --body-text: #4A4A4A;
-    --divider: #F3F3F3;
+    --primary: #c59a59;
+    --secondary: #f3f3f3;
+    --light: #ffffff;
+    --dark: #1a1a1a;
+    --body-text: #4a4a4a;
+    --divider: #f3f3f3;
     --gold-hover: #a8854a;
 }
 
