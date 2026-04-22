@@ -1,6 +1,6 @@
 /********** Template CSS **********/
 :root {
-    --primary: #c59a59;
+    --primary: #6244C5;
     --secondary: #f3f3f3;
     --light: #ffffff;
     --dark: #1a1a1a;
@@ -35,15 +35,15 @@ p, span, li, label {
    =========================== */
 
 .text-primary {
-    color: #C5A059 !important;
+    color: #6244C5 !important;
 }
 
 .bg-primary {
-    background-color: #C5A059 !important;
+    background-color: #6244C5 !important;
 }
 
 .border-primary {
-    border-color: #C5A059 !important;
+    border-color: #6244C5 !important;
 }
 
 .bg-secondary {
@@ -70,10 +70,10 @@ p, span, li, label {
 
 .btn.btn-primary,
 .btn-primary {
-    background-color: #C5A059 !important;
-    border-color: #C5A059 !important;
-    color: #FFFFFF !important;
-    border: none !important;
+    background-color: #6244C5!important;
+    border-color: #6244C5!important;
+    color: #FFFFFF!important;
+    border: none!important;
 }
 
 .btn.btn-primary:hover,
@@ -93,7 +93,7 @@ p, span, li, label {
 
 .btn-outline-light:hover {
     background-color: #FFFFFF !important;
-    color: #C5A059 !important;
+    color:#6244C5 !important;
     border-color: #FFFFFF !important;
 }
 
@@ -142,8 +142,8 @@ p, span, li, label {
     right: 45px;
     bottom: 45px;
     z-index: 99;
-    background-color: #C5A059 !important;
-    border-color: #C5A059 !important;
+    background-color: #6244C5 !important;
+    border-color: #6244C5 !important;
     color: #FFFFFF !important;
 }
 
@@ -205,11 +205,11 @@ p, span, li, label {
 
 .navbar .navbar-nav .nav-link:hover,
 .navbar .navbar-nav .nav-link.active {
-    color: #C5A059 !important;
+    color: #6244C5 !important;
 }
 
 .navbar-brand h1 {
-    color: #C5A059 !important;
+    color: #6244C5 !important;
 }
 
 .navbar-brand.bg-secondary {
@@ -228,7 +228,7 @@ p, span, li, label {
 
 #home {
     margin-bottom: 0;
-    background-color: #C5A059 !important;
+    background-color: #6244C5!important;
 }
 
 .typed-cursor {
@@ -286,7 +286,7 @@ p, span, li, label {
     width: 0;
     height: 0;
     left: -1px;
-    border-left: 16px solid #C5A059;
+    border-left: 16px solid #6244C5;
     border-top: 11px solid transparent;
     border-bottom: 11px solid transparent;
 }
@@ -334,7 +334,7 @@ p, span, li, label {
 .modal-header {
     background-color: #1A1A1A;
     color: #FFFFFF;
-    border-bottom: 2px solid #C5A059;
+    border-bottom: 2px solid #6244C5;
 }
 
 .modal-header .modal-title {
@@ -352,7 +352,7 @@ p, span, li, label {
 #about .years .display-1 {
     font-size: 10rem;
     line-height: 9rem;
-    color: #C5A059 !important;
+    color: #6244C5 !important;
 }
 
 #about .years h5 {
@@ -362,7 +362,7 @@ p, span, li, label {
 }
 
 #about .far.fa-check-circle.text-primary {
-    color: #C5A059 !important;
+    color: #6244C5 !important;
 }
 
 /* ===========================
@@ -382,11 +382,11 @@ p, span, li, label {
 }
 
 #skill .progress .progress-bar.bg-primary {
-    background-color: #C5A059 !important;
+    background-color:#6244C5 !important;
 }
 
 #skill .nav-pills {
-    border-color: #C5A059 !important;
+    border-color: #6244C5 !important;
 }
 
 #skill .nav-pills .nav-link {
@@ -398,17 +398,17 @@ p, span, li, label {
 
 #skill .nav-pills .nav-link.active {
     color: #FFFFFF !important;
-    background-color: #C5A059 !important;
+    background-color: #6244C5 !important;
 }
 
 #skill .tab-content hr {
     width: 30px;
-    border-color: #C5A059;
+    border-color: #6244C5;
     opacity: 1;
 }
 
 #skill .tab-content .text-primary {
-    color: #C5A059 !important;
+    color: #6244C5 !important;
 }
 
 /* ===========================
@@ -436,7 +436,7 @@ p, span, li, label {
 }
 
 .service-item .bg-icon i {
-    color: #C5A059 !important;
+    color: #6244C5 !important;
 }
 
 .service-item h4 {
@@ -444,7 +444,7 @@ p, span, li, label {
 }
 
 .service-item h6 {
-    color: #C5A059 !important;
+    color: #6244C5 !important;
 }
 
 .service-item span {
@@ -468,8 +468,8 @@ p, span, li, label {
 
 #portfolio-flters li:hover,
 #portfolio-flters li.active {
-    color: #C5A059;
-    border-color: #C5A059;
+    color: #6244C5;
+    border-color: #6244C5;
 }
 
 .portfolio-img {
@@ -519,7 +519,7 @@ p, span, li, label {
     justify-content: space-between;
     opacity: 0;
     transition: .5s;
-    border-left: 3px solid #C5A059;
+    border-left: 3px solid #6244C5;
 }
 
 .team-item:hover .team-text {
@@ -540,12 +540,12 @@ p, span, li, label {
 }
 
 .team-item .team-text span {
-    color: #C5A059;
+    color: #6244C5 !important;
     font-weight: 600;
 }
 
 .team-item .fa-arrow-right.text-primary {
-    color: #C5A059 !important;
+    color: #6244C5 !important;
 }
 
 /* ===========================
@@ -561,7 +561,7 @@ p, span, li, label {
 .testimonial-right img {
     position: absolute;
     padding: 5px;
-    border: 1px solid #C5A059 !important;
+    border: 1px solid #6244C5 !important;
     border-radius: 70px;
 }
 
@@ -607,7 +607,7 @@ p, span, li, label {
     align-items: center;
     justify-content: center;
     background: #FFFFFF;
-    border: 1px solid #C5A059;
+    border: 1px solid #6244C5 !important;
     border-radius: 60px;
 }
 
@@ -626,7 +626,7 @@ p, span, li, label {
     width: 30px;
     height: 30px;
     background: #FFFFFF;
-    border: 2px solid #C5A059;
+    border: 2px solid #6244C5;
     border-radius: 30px;
     transition: .5s;
 }
@@ -639,22 +639,22 @@ p, span, li, label {
     top: 5px;
     left: 5px;
     border-radius: 16px;
-    background: #C5A059;
+    background: #6244C5;
     transition: .5s;
     opacity: 0.4;
 }
 
 .testimonial-carousel .owl-dot.active::after {
-    background: #C5A059;
+    background: #6244C5;
     opacity: 1;
 }
 
 .testimonial-item .border-secondary {
-    border-color: #C5A059 !important;
+    border-color: #6244C5 !important;
 }
 
 .testimonial-item .fa-quote-left.text-primary {
-    color: #C5A059 !important;
+    color: #6244C5 !important;
 }
 
 /* ===========================
@@ -663,7 +663,7 @@ p, span, li, label {
 
 #contact a.text-dark:hover,
 #contact .contact-link:hover {
-    color: #C5A059 !important;
+    color:  #6244C5 !important;
     text-decoration: underline !important;
 }
 
@@ -680,7 +680,7 @@ p, span, li, label {
 }
 
 .form-control:focus {
-    border-color: #C5A059 !important;
+    border-color: #6244C5 !important;
     box-shadow: 0 0 0 0.2rem rgba(197, 160, 89, 0.2) !important;
 }
 
@@ -708,7 +708,7 @@ p, span, li, label {
 }
 
 .container-fluid.bg-dark a:hover {
-    color: #C5A059 !important;
+    color: #6244C5 !important;
 }
 
 /* ===========================
